@@ -35,7 +35,7 @@ endif
 	    gcc $(C_ARGS)  $(INCCOMM) -c $^
 					  
 # Targets, maybe no use spp plugin, don't make it
-all: mtlib spp_plug install
+all: mtlib 
 
 # Defines
 MT_LIB=./micro_thread
